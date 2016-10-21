@@ -1,0 +1,299 @@
+@media (min-width: 992px) and (max-width: 1110px) {	
+	nav {
+		margin: 0% 0% 0% 0%;
+		width: 100%;
+	}
+	.logo {
+		width: 19%;
+		padding-left: 17px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {	
+	nav {
+		margin: 0% 0% 0% 0%;
+		width: 100%;
+	}
+	.logo {
+		width: 19%;
+		padding-left: 17px;
+	}
+	#g, #f, #e {
+		display: none;
+	}
+	.collapsed {
+		cursor: pointer;
+		margin-right: 17px;
+		display: inline-block;
+	}
+	.menu li {
+		margin-right: 10px;
+	}
+	.container {
+		height: auto;
+	}
+	#servise-head {
+		width: 70%;
+	}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	nav {
+		margin: 0% 0% 0% 0%;
+		width: 100%;
+	}
+	.logo {
+		width: 19%;
+		padding-left: 17px;
+	}
+	.menu {
+		height: 40px;
+	}
+	.menu > li{
+		display: none;
+	}
+	.collapsed {
+		cursor: pointer;
+		margin-right: 17px;
+		display: inline-block;
+	}
+	.menu li {
+		margin-right: 10px;
+	}
+	.container {
+		height: auto;
+	}
+	.text1 {
+		padding: 3px 10px 4px 10px;
+		font-size: 40px;
+		top: 40%;
+	}
+	.text2 {
+		font-size: 13px;
+		width: 400px;
+		padding: 6px 10px 10px 10px;
+		top: 57%;
+	}
+	.prev, .next {
+	    top: 50%;
+	    margin-top: -22px;
+	    padding: 9px 10px 9px 10px;
+	}
+	#servise-head {
+		width: 100%;
+	}
+	.view {
+		float: left;
+	}
+	.bottom-servise {
+		margin-top: 80px;
+	}
+	.top-content h1{
+		font-size: 35px;
+	}
+	.left-img {
+		margin: 30px auto;
+		width: 70%;
+		left: 15%;
+		margin-bottom: 0px;
+		border-radius: 10px;
+		padding: 0px 6px 6px 6px;
+	}
+	.l-inner {
+		border-radius: 10px;
+	}
+	.center-img {
+		margin: 30px auto;
+		margin-bottom: 0px;
+		width: 70%;
+		left: 15%;
+	}	
+	.right-img {
+		width: 70%;
+		left: 15%;
+		margin: 30px auto;
+		margin-bottom: 0px;
+		border-radius: 10px;
+		padding: 0px 6px 6px 6px;
+	}
+	.r-inner {
+		margin-top: 45px;
+		border-radius: 10px;
+	}
+	.bot-content {
+		overflow: hidden;
+	}
+	.causes {
+		width: 100%;
+	}
+	.skills {
+		text-align: left;
+		width: 100%;
+	}
+	.skills p {
+		margin-left: 1.7%;
+		margin-bottom: 40px;
+	}
+	.testemoials {
+		width: 100%;
+	}
+	.testemoials h1 {
+		margin-top: 20px;
+		margin-left: 1.7%;
+	}
+	.testemoials h2 {
+		text-align: right;
+		margin-right: 20px;
+	}
+	.customer .photo {
+		width: 30%;
+	}
+	#last {
+		display: none;
+	}
+	.contacts{
+		width: 50%;
+	}
+	.company {
+		width: 24%;
+	}
+	#blog {
+		width: 100%;
+	}
+}
+@media (min-width: 480px) and (max-width: 650px) {
+	.skills img {
+		margin-top: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.skills p {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 479px) {
+	nav {
+		margin: 0% 0% 0% 0%;
+		width: 100%;
+	}
+	.logo {
+		float:left;
+		width: 19%;
+		margin-top: 8px;
+		padding-left: 17px;
+	}
+	.menu {
+		height: 40px;
+	}
+	.menu > li{
+		display: none;
+	}
+	.collapsed {
+		cursor: pointer;
+		margin-right: 17px;
+		display: inline-block;
+	}
+	.menu li {
+		margin-right: 10px;
+	}
+	.container {
+		height: auto;
+	}
+	.text1 {
+		padding: 3px 10px 4px 10px;
+		font-size: 25px;
+		top: 37%;
+	}
+	/*.text2 {
+		margin-top: 10px;
+		font-size: 11px;
+		width: 260px;
+		padding: 6px 5px 10px 5px;
+		top: 57%;
+	}*/
+	.text2 {
+		display: none;
+	}
+	.prev, .next {
+	    top: 50%;
+	    margin-top: -22px;
+	    padding: 5px 7px 5px 7px;
+	}
+	.top-servise h1 {
+		font-size: 25px;
+	}
+	#servise-head {
+		width: 100%;
+	}
+	.view {
+		float: left;
+	}
+	.top-content h1{
+		font-size: 27px;
+	}
+	.left-img {
+		width: 100%;
+		margin: 30px auto;
+		margin-bottom: 0px;
+		border-radius: 10px;
+		padding: 0px 6px 6px 6px;
+	}
+	.l-inner {
+		border-radius: 10px;
+	}
+	.center-img {
+		margin: 30px auto;
+		margin-bottom: 0px;
+		width: 100%;
+	}	
+	.right-img {
+		width: 100%;
+		margin: 30px auto;
+		margin-bottom: 0px;
+		border-radius: 10px;
+		padding: 0px 6px 6px 6px;
+	}
+	.r-inner {
+		margin-top: 45px;
+		border-radius: 10px;
+	}
+	.bot-content {
+		overflow: hidden;
+	}
+	.causes {
+		width: 100%;
+	}
+	.skills {
+		text-align: left;
+		width: 100%;
+	}
+	.skills img {
+		margin-top: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.skills p {
+		margin-bottom: 20px;
+	}
+	.testemoials {
+		width: 100%;
+	}
+	.testemoials h1 {
+		margin-top: 20px;
+		margin-left: 1.7%;
+	}
+	.testemoials h2 {
+		text-align: right;
+		margin-right: 20px;
+	}
+	.customer .photo {
+		width: 30%;
+	}
+	#last {
+		display: none;
+	}
+	.contacts{
+		width: 100%;
+	}
+	.company {
+		width: 50%;
+	}
+}
