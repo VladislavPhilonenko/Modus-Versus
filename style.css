@@ -8,12 +8,17 @@ body {
 header {
 	background-color: #76c7c0;
 }
-nav {
+.nav {
 	margin: 0% 5% 0% 5%;
 	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-between;
 }
 .logo {
-	display: inline-block;
 	min-width: 19%;
 }
 .logo a {
@@ -31,31 +36,31 @@ nav {
 	margin: 0px;
 }
 .menu {
-	text-align: right;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+	display: -webkit-inline-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: flex-end;
 	padding-left: 0px;
 	width: 80%;
 	height: 80px;
-	display: inline-block;
 	list-style-type: none;
 }
 .menu li {
-	display: inline-block;
 	margin-right: 14px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 .menu li > a {
+	display: inline-block;
 	font-family: 'Open Sans Semibold', arial;
 	font-size: 14px;
 	color: white;
-	display: block;
 	padding: 10px 15px 9px 14px;
 	border-radius: 4px;
 	line-height: 0.75;
 	text-decoration: none;
-}
-#g {
-	margin-right: 0px;
 }
 .menu li > a:hover {
 	background-color: #e8645a;
@@ -66,6 +71,26 @@ nav {
 	top: 3px;
 	box-shadow: 0px 0px #e2534b;
 }
+.menu .active {
+	background-color: #62a29e;
+	box-shadow: 0px 3px #528b86;
+}
+.dropdown {
+	position: relative;
+	padding-bottom: 20px;
+	top: 10px;
+}
+.dropdown-content {
+	text-align: left;
+	min-width: 193px;
+	padding: 5px;
+    display: none;
+    position: absolute;
+    top: 48px;
+    background-color: #e2534b;
+    border-radius: 4px;
+    z-index: 999;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -74,25 +99,12 @@ nav {
 	border-radius: 4px;
 	box-shadow: 0px 3px #e2534b;
 }
-.menu .active {
-	background-color: #62a29e;
-	box-shadow: 0px 3px #528b86;
-}
-.dropdown {
-	position: relative;
-}
-.dropdown-content {
-	text-align: left;
-	min-width: 193px;
-	padding: 5px;
-    display: none;
-    position: absolute;
-    background-color: #e2534b;
-    border-radius: 4px;
-    z-index: 999;
-}
 .dropdownbtn {
 	margin-bottom: 20px;
+}
+.btn-dropdown .dropdown-content {
+    text-align: right;
+    min-width: 100px;
 }
 .dropdown-content::after {
 	content: "";
@@ -103,6 +115,16 @@ nav {
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #e2534b transparent;
+}
+.btn-dropdown .dropdown-content::after {
+	content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 9%;
+    margin-left: 80px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent  #e2534b transparent;
 }
 .dropdown-content a {
 	line-height: 2;
@@ -117,6 +139,11 @@ nav {
     text-decoration: none;
     display: block;
 }
+#col {
+	position: relative;
+	display: none;
+
+}
 .dropdown-content a:hover {
 	background-color: #76c7c0;
 }
@@ -125,20 +152,21 @@ nav {
 }
 .collapsed {
 	position: relative;
-	top: 3px;
+	top: 10px;
 	display: none;
 	height: 29.5px;
 	border: none;
 	padding: 6px;
 	background-color: transparent;
 	border-radius: 4px;
+	margin-bottom: 20px;
 }
 .collapsed:hover {
 	background-color: #e5655d;
 	box-shadow: 0px 3px #e2534b;
 }
 .collapsed:active {
-	top: 6px;
+	top: 13px;
 	box-shadow: 0px 0px #e2534b;
 }
 .icon-bar {
@@ -151,12 +179,6 @@ nav {
 }
 .icon-bar:last-child {
 	margin-bottom: 0px;
-}
-.collapsed-menu1 {
-	display: none;
-}
-.collapsed-menu2 {
-	display: none;
 }
 /*CAROUSEL*/
 .container {
@@ -247,7 +269,7 @@ nav {
 	width: 90%;
 	padding-bottom: 20px;
 }
-.top-servise h1 {
+.top-servise h2 {
 	font-family: 'Open Sans Semibold', arial;
 	font-size: 30px;
 	color: #7f8c8c;
@@ -300,7 +322,7 @@ nav {
 	margin-right: 1.5%;
 	margin-left: 1.5%;
 }
-.bottom-servise h1 {
+.bottom-servise h2 {
 	font-family: 'Open Sans Semibold', arial;
 	font-size: 16px;
 	color: #7f8c8c;
@@ -467,7 +489,7 @@ nav {
 	width: 90%;
 	overflow: auto;
 }
-.bot-content h1 {
+.bot-content h2 {
 	font-family: 'Open Sans Extrabold', arial;
 	color: #7f7f7f;
 	font-size: 16px;
@@ -477,7 +499,7 @@ nav {
 	color: #7f7f7f;
 	font-size: 13px;
 }
-.bot-content h2 {
+.bot-content h3 {
 	font-family: 'Open Sans Semibold', arial;
 	color: #7f7f7f;
 	font-size: 16px;
@@ -516,7 +538,7 @@ nav {
 	width: 23.3%;
 	margin-right: 1.7%;
 }
-.testemoials h1 {
+.testemoials h2 {
 	margin-bottom: 30px;
 }
 .testemoials p {
@@ -524,7 +546,7 @@ nav {
 	margin-right: 15px;
 	line-height: 1.8;
 }
-.testemoials h2 {
+.testemoials h3 {
 	text-align: center;
 	margin-top: 0px;
 }
@@ -536,7 +558,7 @@ nav {
 	width: 90%;
 	overflow: auto;
 }
-.clients h1 {
+.clients h2 {
 	font-family: 'Open Sans Extrabold', arial;
 	color: #7f7f7f;
 	font-size: 16px;
@@ -575,6 +597,11 @@ nav {
 	clear: left;	
 }
 .customer .photo {
+	width: 16%;
+	text-align: center;
+	display: inline-block;	
+}
+.customer .photo-last {
 	width: 16%;
 	text-align: center;
 	display: inline-block;	
@@ -629,7 +656,7 @@ footer {
 	float:left;
 	width: 17%;
 }
-.company h1{
+.company h2{
 	font-family: 'Open Sans Bold', arial;
 	font-size: 20px;
 	color: #3b6360;

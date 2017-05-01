@@ -20,37 +20,48 @@
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<script src="custom.js"></script> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 
 <header>
-	<nav>
-
+	<nav class="nav">
 		<div class="logo">
 			<a href="#"><span class="modus">MODUS</span><span class="versus">versus</span></a>
 		</div>
-
-		<ul class=menu>
-			<li id="a"><a href="#" class="active">HOME</a></li>
-			<li id="b"><a href="#">ABOUT</a></li>
-			<li id="c"><a href="#">SERVISES</a></li>
-			<li class="dropdown"><a href="#" class="dropdownbtn">PORTFOLIO</a>
+		<ul class="menu">
+			<li class="invisa"><a href="#" class="active">HOME</a></li>
+			<li class="invisa"><a href="#">ABOUT</a></li>
+			<li class="dropdown invisa"><a href="#">PORTFOLIO</a>
 				<div class="dropdown-content">
 			      <a href="#">Portfolio 2 column page</a>
 			      <a href="#">Portfolio 2 column page</a>
 			      <a href="#">Portfolio 2 column page</a>
 			    </div>
 			</li>
-			<li id="d"><a href="#">BLOG</a></li>
-			<li id="e"><a href="#">FEATURES</a></li>
-			<li id="f"><a href="#">CONTACTS</a></li>
-			<li id="g"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-			<button type="button" class="collapsed">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		    </button>
+			<li class="invisa"><a href="#">BLOG</a></li>
+			<li class="invis"><a href="#">FEATURES</a></li>
+			<li class="invis"><a href="#">CONTACTS</a></li>
+			<li class="invis"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+			<li class="dropdown btn-dropdown"><a href="#" id="col">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			        </a>
+			        <div class="dropdown-content" style="right: 0;">
+			        	<a href="#">HOME</a>
+			        	<a href="#">ABOUT</a>
+			        	<a href="#">PORTFOLIO</a>
+			        	<a href="#">Portfolio 2 column page</a>
+			        	<a href="#">Portfolio 2 column page</a>
+			        	<a href="#">Portfolio 2 column page</a>
+			        	<a href="#">BLOG</a>
+				      	<a href="#">FEATURES</a>
+				      	<a href="#">CONTACTS</a>
+				      	<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+			    	</div>
+				</button>
+		    </li>
 		</ul>
 	</nav>
 </header>
@@ -59,24 +70,21 @@
 	<div class="carousel">
 		<div class="container">
 	        <div class="mySlides fade">
-				<img src="http://img15.nnm.me/b/2/f/3/9/b5862ef7bee8e9ef730ea2a83c1.jpg" 
-				alt="your image" style="width: 100%">
+				<img src="img/img1.jpg" alt="your image" style="width: 100%">
 				<div class="text1">VESTIBULUM</div>
 				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
 				libero lectus mattis orci, ut commodo.</div>
 		    </div>
 			
 			<div class="mySlides fade">
-				<img src="http://drobs.ru/opyat/8/peyzazh_priroda_holmy_derevya_zelen_tuman_rassvet_solnce_5576x3087.jpg" 
-				alt="your image" style="width:100%">
+				<img src="img/img2.jpg" alt="your image" style="width:100%">
 				<div class="text1">VESTIBULUM</div>
 				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
 				libero lectus mattis orci, ut commodo.</div>
 		    </div>
 			
 			<div class="mySlides fade">
-				<img src="http://www.zastavki.com/pictures/originals/2013/Nature___Mountains__040052_.jpg"
-				alt="your image" style="width:100%">
+				<img src="img/img3.jpg" alt="your image" style="width:100%">
 				<div class="text1">VESTIBULUM</div>
 				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum,
 				 libero lectus mattis orci, ut commodo.</div>
@@ -102,7 +110,7 @@
 	<div class="features">
 		<div class="top-servise">
 			<div id="servise-head">
-				<h1>Some of our top servise</h1>
+				<h2>Some of our top servise</h2>
 				<p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt,
 			 	augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
 			</div>
@@ -112,28 +120,28 @@
 		<div class="bottom-servise">
 			<div class="servise">
 				<i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
-				<h1>SUSPENDISSE</h1>
+				<h2>SUSPENDISSE</h2>
 				<p> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla,
 				 placerat vitae at, vehicula ut nunc.</p>
 				<button  class="read">read more</button>
 			</div>
 			<div class="servise">
 				<i class="fa fa-key fa-3x" aria-hidden="true"></i>
-				<h1>MAECENAS </h1>
+				<h2>MAECENAS </h2>
 				<p> Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt,
 				 augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
 				<button  class="read">read more</button>
 			</div>
 			<div class="servise">
 				<i class="fa fa-flag fa-3x" aria-hidden="true"></i>
-				<h1>ALIQUAM</h1>
+				<h2>ALIQUAM</h2>
 				<p>Qivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl,
 				 vitae pulvinar dui tempor non.</p>
 				<button  class="read">read more</button>
 			</div>
 			<div class="servise">
 				<i class="fa fa-flask fa-3x" aria-hidden="true"></i>
-				<h1>HABITASSE</h1>
+				<h2>HABITASSE</h2>
 				<p> Astehicula ultricies. Integer venenatis mattis nisl,
 				 vitae pulvinar dui tempor non.</p>
 				<button  class="read">read more</button>
@@ -155,7 +163,7 @@
 		    		<span class="dot"></span>
 		    		<span class="dot"></span>
 		    		<span class="dot"></span>
-					</div>
+				</div>
 		    	<div class="l-inner">
 		    		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZN8TjAVeJP-9Au71U5hMxCzVg6WTjA-YA7Gz0OwpZVAQzZtG" alt="your image">
 		    	</div>
@@ -167,7 +175,7 @@
 		    		<span class="dot"></span>
 		    		<span class="dot"></span>
 		    		<span class="dot"></span>
-					</div>
+				</div>
 		    	<div class="c-inner">
 		    		<img src="http://relaxic.net/wp-content/uploads/2016/04/New-England_00003.jpg" alt="your image">
 		    	</div>		    	
@@ -176,7 +184,7 @@
 			<div class="right-img">
 				<div>
 		    		<span class="dot"></span>
-					</div>
+				</div>
 		    	<div class="r-inner">
 		    		<img src="http://hdoboi.net/uploads/hd/95263_krasivyiy_osenniy_peyzaj.jpg" alt="your image">
 		    	</div>
@@ -189,7 +197,7 @@
 <section>
 	<div class="bot-content">
 		<div class="causes">
-			<h1>Why Choose Us?</h1>
+			<h2>Why Choose Us?</h2>
 			<i class="fa fa-arrow-right" aria-hidden="true"></i>
 			<p>Quisque at massa ipsum</p>
 			<i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -207,24 +215,25 @@
 			<p>Curabitur quis nisl in leo euismod venenatis eu in diam. 
 			Etiam auctor diam pellentesque lectus <a href="">vehicula mattis</a>. 
 			Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
-			<img src="img/50%.png" alt="50%">
-			<img src="img/70%.png" alt="70%">
-			<img src="img/80%.png" alt="80%">
-			<img src="img/100%.png" alt="100%">
+			<img src="img/50.png" alt="50%">
+			<img src="img/70.png" alt="70%">
+			<img src="img/80.png" alt="80%">
+			<img src="img/100.png" alt="100%">
 		</div>
 
 		<div class="testemoials">
-			<h1>What Client's Say?</h1>
+			<h2>What Client's Say?</h2>
 			<p><i>Curabitur quis nisl in leo euismod venenatis eu in diam.
 			 Etiam auctor diam pellentesque lectus vehicula mattis.
 			 Nulla ac massa at dolor condimentum</i></p>
-			<h2>Jhon Doe</h2>
+			<h3>Jhon Doe</h3>
 		</div>
+	</div>
 </section>
 
 <section>
 		<div class="clients">
-			<h1>Our Happy Clients</h1>
+			<h2>Our Happy Clients</h2>
 			<button class="right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
 			<button class="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
 			<div class="customer">
@@ -237,18 +246,17 @@
 				<div class="photo">
 					<img src="img/j-query.png" alt="j-query">
 				</div>
-				<div class="photo" id="last">
+				<div class="photo-last">
 					<img src="img/j-query.png" alt="j-query">
 				</div>
-				<div class="photo" id="last">
+				<div class="photo-last">
 					<img src="img/j-query.png" alt="j-query">
 				</div>
-				<div class="photo" id="last">
+				<div class="photo-last">
 					<img src="img/j-query.png" alt="j-query">
 				</div>
 			</div>
 		</div>
-	</div>
 </section>
 
 <footer>
@@ -262,7 +270,7 @@
 			<p>e-mail: <strong>Ananaslike@gmail.com</strong></p>
 		</div>
 		<div class="company">
-			<h1>Company</h1>
+			<h2>Company</h2>
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
 			<p>About</p>
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -277,7 +285,7 @@
 			<p>Testimonials</p>
 		</div>
 		<div class="company">
-			<h1>Community</h1>
+			<h2>Community</h2>
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
 			<p>Blog</p>
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -290,10 +298,10 @@
 		<div class="contacts" id="blog">
 			<span class="italic">from the </span><span class="modus">BLOG</span>
 			<div class="blog">
-				<img src="" alt="photo">
+				<img src="#" alt="photo">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<h6>26 May, 2013</h6>
-				<img src="" alt="photo">
+				<img src="#" alt="photo">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<h6>26 May, 2013</h6>
 			</div>
@@ -342,5 +350,7 @@ function showSlides(n) {
   dots[slideIndex-1].classList.add("now");
 }
 </script>
+
+<script src="custom.js"></script> 
 </body>
 </html>
