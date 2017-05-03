@@ -1,7 +1,7 @@
 @media (min-width: 992px) and (max-width: 1110px) {	
 	.nav {
-		margin: 0% 0% 0% 0%;
 		width: 100%;
+		margin: 0% 0% 0% 0%;
 	}
 	.logo {
 		width: 19%;
@@ -10,22 +10,28 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {	
 	.nav {
-		margin: 0% 0% 0% 0%;
 		width: 100%;
+		margin: 0% 0% 0% 0%;
 	}
 	.logo {
 		width: 19%;
 		padding-left: 17px;
 	}
-	.invis {
+	.menu li {
+		margin-right: 10px;
+	}
+	.menu li:nth-child(n + 5) {
+		display: none;
+	}
+	.menu li:last-child {
+		display: inline;
+	}
+	.btn-dropdown .dropdown-content a:nth-last-child(n + 4) {
 		display: none;
 	}
 	#col {
-		cursor: pointer;
 		display: inline-block;
-	}
-	.menu li {
-		margin-right: 10px;
+		cursor: pointer;
 	}
 	.container {
 		height: auto;
@@ -36,8 +42,8 @@
 }
 @media (min-width: 480px) and (max-width: 767px) {
 	.nav {
-		margin: 0% 0% 0% 0%;
 		width: 100%;
+		margin: 0% 0% 0% 0%;
 	}
 	.logo {
 		width: 19%;
@@ -46,32 +52,37 @@
 	.menu {
 		height: 40px;
 	}
-	.invisa{
+	.menu li {
 		display: none;
+		margin-right: 10px;
 	}
-	.invis {
-		display: none;
+	.menu li:last-child {
+		display: inline;
+	}
+	.dropdown-content {
+		top: 56px;
+		width: 200px;
+	}
+	.btn-dropdown .dropdown-content::after {
+    	margin-left: 160px;
 	}
 	#col {
-		cursor: pointer;
 		display: inline-block;
-	}
-	.menu li {
-		margin-right: 10px;
+		cursor: pointer;
 	}
 	.container {
 		height: auto;
 	}
 	.text1 {
+		top: 40%;
 		padding: 3px 10px 4px 10px;
 		font-size: 40px;
-		top: 40%;
 	}
 	.text2 {
-		font-size: 13px;
+		top: 57%;
 		width: 400px;
 		padding: 6px 10px 10px 10px;
-		top: 57%;
+		font-size: 13px;
 	}
 	.prev, .next {
 	    top: 50%;
@@ -91,29 +102,29 @@
 		font-size: 35px;
 	}
 	.left-img {
-		margin: 30px auto;
 		width: 70%;
 		left: 15%;
+		margin: 30px auto;
 		margin-bottom: 0px;
-		border-radius: 10px;
 		padding: 0px 6px 6px 6px;
+		border-radius: 10px;
 	}
 	.l-inner {
 		border-radius: 10px;
 	}
 	.center-img {
-		margin: 30px auto;
-		margin-bottom: 0px;
 		width: 70%;
 		left: 15%;
+		margin: 30px auto;
+		margin-bottom: 0px;
 	}	
 	.right-img {
 		width: 70%;
 		left: 15%;
 		margin: 30px auto;
 		margin-bottom: 0px;
-		border-radius: 10px;
 		padding: 0px 6px 6px 6px;
+		border-radius: 10px;
 	}
 	.r-inner {
 		margin-top: 45px;
@@ -126,8 +137,8 @@
 		width: 100%;
 	}
 	.skills {
-		text-align: left;
 		width: 100%;
+		text-align: left;
 	}
 	.skills p {
 		margin-left: 1.7%;
@@ -141,8 +152,8 @@
 		margin-left: 1.7%;
 	}
 	.testemoials h3 {
-		text-align: right;
 		margin-right: 20px;
+		text-align: right;
 	}
 	.customer .photo {
 		width: 30%;
@@ -184,34 +195,32 @@
 	.menu {
 		height: 40px;
 	}
-	.invisa{
+	.menu li {
 		display: none;
+		margin-right: 10px;
 	}
-	.invis {
-		display: none;
+	.menu li:last-child {
+		display: inline;
+	}
+	.dropdown-content {
+		top: 56px;
+		width: 200px;
+	}
+	.btn-dropdown .dropdown-content::after {
+    	margin-left: 160px;
 	}
 	#col {
-		cursor: pointer;
 		display: inline-block;
-	}
-	.menu li {
-		margin-right: 10px;
+		cursor: pointer;
 	}
 	.container {
 		height: auto;
 	}
 	.text1 {
+		top: 37%;
 		padding: 3px 10px 4px 10px;
 		font-size: 25px;
-		top: 37%;
 	}
-	/*.text2 {
-		margin-top: 10px;
-		font-size: 11px;
-		width: 260px;
-		padding: 6px 5px 10px 5px;
-		top: 57%;
-	}*/
 	.text2 {
 		display: none;
 	}
@@ -236,23 +245,23 @@
 		width: 100%;
 		margin: 30px auto;
 		margin-bottom: 0px;
-		border-radius: 10px;
 		padding: 0px 6px 6px 6px;
+		border-radius: 10px;
 	}
 	.l-inner {
 		border-radius: 10px;
 	}
 	.center-img {
+		width: 100%;
 		margin: 30px auto;
 		margin-bottom: 0px;
-		width: 100%;
 	}	
 	.right-img {
 		width: 100%;
 		margin: 30px auto;
 		margin-bottom: 0px;
-		border-radius: 10px;
 		padding: 0px 6px 6px 6px;
+		border-radius: 10px;
 	}
 	.r-inner {
 		margin-top: 45px;
@@ -265,8 +274,8 @@
 		width: 100%;
 	}
 	.skills {
-		text-align: left;
 		width: 100%;
+		text-align: left;
 	}
 	.skills img {
 		margin-top: 20px;
@@ -284,8 +293,8 @@
 		margin-left: 1.7%;
 	}
 	.testemoials h3 {
-		text-align: right;
 		margin-right: 20px;
+		text-align: right;
 	}
 	.customer .photo {
 		width: 30%;

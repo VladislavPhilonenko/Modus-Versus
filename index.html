@@ -7,9 +7,10 @@
 	<meta name="description" content="">
     <meta name="author" content="">
 	<title>Modus versus</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 	<link href="http://allfont.ru/allfont.css?fonts=open-sans-extrabold" rel="stylesheet" type="text/css" />
 	<link href="http://allfont.ru/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" />
 	<link href="http://allfont.ru/allfont.css?fonts=open-sans-semibold" rel="stylesheet" type="text/css" />
@@ -30,20 +31,21 @@
 			<a href="#"><span class="modus">MODUS</span><span class="versus">versus</span></a>
 		</div>
 		<ul class="menu">
-			<li class="invisa"><a href="#" class="active">HOME</a></li>
-			<li class="invisa"><a href="#">ABOUT</a></li>
-			<li class="dropdown invisa"><a href="#">PORTFOLIO</a>
+			<li><a href="#" class="active">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li class="dropdown"><a href="#">PORTFOLIO</a>
 				<div class="dropdown-content">
 			      <a href="#">Portfolio 2 column page</a>
 			      <a href="#">Portfolio 2 column page</a>
 			      <a href="#">Portfolio 2 column page</a>
 			    </div>
 			</li>
-			<li class="invisa"><a href="#">BLOG</a></li>
-			<li class="invis"><a href="#">FEATURES</a></li>
-			<li class="invis"><a href="#">CONTACTS</a></li>
-			<li class="invis"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-			<li class="dropdown btn-dropdown"><a href="#" id="col">
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">FEATURES</a></li>
+			<li><a href="#">CONTACTS</a></li>
+			<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+			<li class="dropdown btn-dropdown">
+					<a href="#" id="col">
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
@@ -66,43 +68,41 @@
 	</nav>
 </header>
 
-<section>
-	<div class="carousel">
-		<div class="container">
-	        <div class="mySlides fade">
-				<img src="img/img1.jpg" alt="your image" style="width: 100%">
-				<div class="text1">VESTIBULUM</div>
-				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
-				libero lectus mattis orci, ut commodo.</div>
-		    </div>
-			
-			<div class="mySlides fade">
-				<img src="img/img2.jpg" alt="your image" style="width:100%">
-				<div class="text1">VESTIBULUM</div>
-				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
-				libero lectus mattis orci, ut commodo.</div>
-		    </div>
-			
-			<div class="mySlides fade">
-				<img src="img/img3.jpg" alt="your image" style="width:100%">
-				<div class="text1">VESTIBULUM</div>
-				<div class="text2">Maecenas tincidunt, augue et rutrum condimentum,
-				 libero lectus mattis orci, ut commodo.</div>
-		    </div>
+<section class="carousel">
+	<div class="container">
+        <div class="mySlides fade">
+			<img src="image/img1.jpg" alt="your image" style="width: 100%">
+			<div class="text1">VESTIBULUM</div>
+			<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
+			libero lectus mattis orci, ut commodo.</div>
+	    </div>
+		
+		<div class="mySlides fade">
+			<img src="image/img2.jpg" alt="your image" style="width:100%">
+			<div class="text1">VESTIBULUM</div>
+			<div class="text2">Maecenas tincidunt, augue et rutrum condimentum, 
+			libero lectus mattis orci, ut commodo.</div>
+	    </div>
+		
+		<div class="mySlides fade">
+			<img src="image/img3.jpg" alt="your image" style="width:100%">
+			<div class="text1">VESTIBULUM</div>
+			<div class="text2">Maecenas tincidunt, augue et rutrum condimentum,
+			 libero lectus mattis orci, ut commodo.</div>
+	    </div>
 
-			<a class="prev" onclick="plusSlides(-1)">
-				<i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>
-			</a>
-			<a class="next" onclick="plusSlides(1)">
-				<i class="fa fa-angle-double-right fa-2x" aria-hidden="true"></i>
-			</a>
-        </div>
-	
-		<div style="text-align: center">
-		    <span class="line" onclick="currentSlide(1)"></span> 
-		    <span class="line" onclick="currentSlide(2)"></span> 
-		    <span class="line" onclick="currentSlide(3)"></span>		
-		</div>
+		<a class="prev" onclick="plusSlides(-1)">
+			<i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>
+		</a>
+		<a class="next" onclick="plusSlides(1)">
+			<i class="fa fa-angle-double-right fa-2x" aria-hidden="true"></i>
+		</a>
+    </div>
+
+	<div style="text-align: center">
+	    <span class="line" onclick="currentSlide(1)"></span> 
+	    <span class="line" onclick="currentSlide(2)"></span> 
+	    <span class="line" onclick="currentSlide(3)"></span>		
 	</div>
 </section>
 
@@ -151,7 +151,6 @@
 </section>
 
 <section id="top">
-
 	<div class="top-content">
 		<h1>WHY MODUS VERSUS</h1>
 		<p>Capacitance cascading integer reflective interface data development
@@ -165,7 +164,7 @@
 		    		<span class="dot"></span>
 				</div>
 		    	<div class="l-inner">
-		    		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZN8TjAVeJP-9Au71U5hMxCzVg6WTjA-YA7Gz0OwpZVAQzZtG" alt="your image">
+		    		<img src="image/img5.jpg" alt="your image">
 		    	</div>
 			</div>
 
@@ -177,7 +176,7 @@
 		    		<span class="dot"></span>
 				</div>
 		    	<div class="c-inner">
-		    		<img src="http://relaxic.net/wp-content/uploads/2016/04/New-England_00003.jpg" alt="your image">
+		    		<img src="image/img4.jpg" alt="your image">
 		    	</div>		    	
 			</div>
 
@@ -186,12 +185,11 @@
 		    		<span class="dot"></span>
 				</div>
 		    	<div class="r-inner">
-		    		<img src="http://hdoboi.net/uploads/hd/95263_krasivyiy_osenniy_peyzaj.jpg" alt="your image">
+		    		<img src="image/img6.jpg" alt="your image">
 		    	</div>
 			</div>
 		</div>
 	</div>
-
 </section>
 
 <section>
@@ -215,10 +213,10 @@
 			<p>Curabitur quis nisl in leo euismod venenatis eu in diam. 
 			Etiam auctor diam pellentesque lectus <a href="">vehicula mattis</a>. 
 			Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
-			<img src="img/50.png" alt="50%">
-			<img src="img/70.png" alt="70%">
-			<img src="img/80.png" alt="80%">
-			<img src="img/100.png" alt="100%">
+			<img src="image/50.png" alt="50%">
+			<img src="image/70.png" alt="70%">
+			<img src="image/80.png" alt="80%">
+			<img src="image/100.png" alt="100%">
 		</div>
 
 		<div class="testemoials">
@@ -238,22 +236,22 @@
 			<button class="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
 			<div class="customer">
 				<div class="photo">
-					<img src="img/j-query.png" alt="j-query">
+					<img src="image/j-query.png" alt="j-query">
 				</div>
 				<div class="photo">
-					<img src="img/j-query.png" alt="j-query">
+					<img src="image/j-query.png" alt="j-query">
 				</div>
 				<div class="photo">
-					<img src="img/j-query.png" alt="j-query">
+					<img src="image/j-query.png" alt="j-query">
+				</div>
+				<div class="photo-last">
+					<img src="image/j-query.png" alt="j-query">
 				</div>
 				<div class="photo-last">
 					<img src="img/j-query.png" alt="j-query">
 				</div>
 				<div class="photo-last">
-					<img src="img/j-query.png" alt="j-query">
-				</div>
-				<div class="photo-last">
-					<img src="img/j-query.png" alt="j-query">
+					<img src="image/j-query.png" alt="j-query">
 				</div>
 			</div>
 		</div>
@@ -317,39 +315,6 @@
 		</div>
 	</div>
 </footer>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i,
-      slides = document.getElementsByClassName("mySlides"),
-      dots = document.getElementsByClassName("line");
-  if (n > slides.length) {
-        slideIndex = 1
-		};    
-  if (n < 1) {
-        slideIndex = slides.length
-		};
-  for (i = 0; i < slides.length; i++) {
-     slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].classList.remove("now");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].classList.add("now");
-}
-</script>
 
 <script src="custom.js"></script> 
 </body>
