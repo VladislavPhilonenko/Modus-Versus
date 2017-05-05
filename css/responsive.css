@@ -138,11 +138,12 @@
 	}
 	.skills {
 		width: 100%;
-		text-align: left;
+		text-align: center;
 	}
 	.skills p {
 		margin-left: 1.7%;
 		margin-bottom: 40px;
+		text-align: left;
 	}
 	.testemoials {
 		width: 100%;
@@ -162,7 +163,7 @@
 		display: none;
 	}
 	.contacts{
-		width: 50%;
+		width: 47%;
 	}
 	.company {
 		width: 24%;
@@ -275,7 +276,7 @@
 	}
 	.skills {
 		width: 100%;
-		text-align: left;
+		text-align: center;
 	}
 	.skills img {
 		margin-top: 20px;
@@ -284,6 +285,7 @@
 	}
 	.skills p {
 		margin-bottom: 20px;
+		text-align: left;
 	}
 	.testemoials {
 		width: 100%;
@@ -297,7 +299,10 @@
 		text-align: right;
 	}
 	.customer .photo {
-		width: 30%;
+		width: 49%;
+	}
+	.customer .photo:nth-child(3) {
+		display: none;
 	}
 	.customer .photo-last {
 		display: none;
