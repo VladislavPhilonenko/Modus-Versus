@@ -4,6 +4,7 @@ body {
 }
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 header {
 	background-color: #76c7c0;
@@ -28,12 +29,11 @@ header {
 }
 .modus {
 	font-size: 30px;
-	font-family: 'Open Sans Extrabold', arial;
+	font-weight: 800;
 }
 .versus {
 	margin: 0px;
 	font-size: 24px;
-	font-family: 'Open Sans', arial;
 }
 .menu {
 	display: -webkit-inline-flex;
@@ -58,7 +58,7 @@ header {
 	border-radius: 4px;
 	line-height: 0.75;
 	font-size: 14px;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 	color: white;
 	text-decoration: none;
 }
@@ -116,7 +116,7 @@ header {
 	border-radius: 3px;
 	line-height: 2;
 	font-size: 13px;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 	background-color: #e5655d;
     color: white;
     text-decoration: none;
@@ -194,7 +194,7 @@ header {
     font-size: 50px;
     color: white;
 	background-color: #e2534b;
-	font-family: 'Open Sans Extrabold', arial;
+	font-weight: 800;
     transform: translate(-50%, -50%);
 }
 .text2 {
@@ -208,7 +208,6 @@ header {
     text-align: center;
     color: white;
     background-color: #3f4646;
-	font-family: 'Open Sans', arial;
 	opacity: 0.8;
     transform: translate(-50%, -50%);
 }
@@ -268,7 +267,7 @@ header {
 	margin: 20px 0px 0px 10px;
 	font-size: 30px;
 	color: #7f8c8c;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 }
 .top-servise p {
 	display: inline-block;
@@ -276,7 +275,6 @@ header {
 	margin: 0px 0px 0px 10px;
 	font-size: 13px;
 	color: #7f7f7f;
-	font-family: 'Open Sans', arial;
 }
 #servise-head {
 	display: inline-block;
@@ -294,7 +292,7 @@ header {
 	color: white;
 	background-color: #e8645a;
 	box-shadow: 0px 3px #e2534b;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 	cursor: pointer;
 }
 .view:hover {
@@ -320,14 +318,13 @@ header {
 .bottom-servise h2 {
 	font-size: 16px;
 	color: #7f8c8c;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 800;
 }
 .bottom-servise p {
 	display: inline-block;
 	height: 100px;
 	font-size: 13px;
 	color: #7f7f7f;
-	font-family: 'Open Sans', arial;
 }
 .read {
 	padding: 10px 40px 9px 40px;
@@ -337,7 +334,7 @@ header {
 	color: white;
 	background-color: #76c7c0;
 	box-shadow: 0px 3px #62b9b0;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 	cursor: pointer;
 }
 .read:hover {
@@ -348,7 +345,7 @@ header {
 	position: relative;
 	top: 3px;
 	background-color: #e8645a;
-	box-shadow: 0px 0px #e2534b ;
+	box-shadow: 0px 0px #e2534b;
 }
 .servise .fa {
 	color: #62bdbd;
@@ -365,14 +362,13 @@ header {
 	text-align: center;
 	font-size: 40px;
 	color: #e1524b;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 }
 .top-content p{
 	margin: 0;
 	text-align: center;
 	font-size: 13px;
 	color: #7f7f7f;
-	font-family: 'Open Sans', arial;
 }
 #top img {
 	width: 100%;
@@ -476,7 +472,7 @@ header {
 	text-align: center;
 	font-size: 20px;
 	color: white;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 }
 /*BOT-CONTENT*/
 .bot-content {
@@ -487,17 +483,16 @@ header {
 .bot-content h2 {
 	font-size: 16px;
 	color: #7f7f7f;
-	font-family: 'Open Sans Extrabold', arial;
+	font-weight: 800;
 }
 .bot-content p {
 	font-size: 13px;
 	color: #7f7f7f;
-	font-family: 'Open Sans', arial;
 }
 .bot-content h3 {
 	font-size: 16px;
 	color: #7f7f7f;
-	font-family: 'Open Sans Semibold', arial;
+	font-weight: 600;
 }
 .bot-content .fa {
 	float: left;
@@ -558,7 +553,7 @@ header {
 	margin-left: 1.7%;
 	font-size: 16px;
 	color: #7f7f7f;
-	font-family: 'Open Sans Extrabold', arial;
+	font-weight: 800;
 }
 .clients button {
 	float: right;
@@ -623,15 +618,15 @@ footer {
 }
 .contacts p{
 	font-size: 13px;
-	font-family: 'Open Sans', arial;
 }
 .contacts strong{
 	font-size: 20px;
-	font-family: 'Open Sans Italic', arial;
+	font-style: italic;
+
 }
 .contacts .italic{
-	font-size: 13px;
-	font-family: 'Open Sans Italic', arial;
+	font-size: 20px;
+	font-style: italic;
 }
 .contacts img{
 	display: block;
@@ -644,7 +639,7 @@ footer {
 	margin-top: 0;
 	font-size: 13px;
 	color: #3b6360;
-	font-family: 'Open Sans', arial;
+	font-weight: 600;
 }
 .company {
 	float:left;
@@ -654,11 +649,10 @@ footer {
 .company h2{
 	font-size: 20px;
 	color: #3b6360;
-	font-family: 'Open Sans Bold', arial;
+	font-weight: 800;
 }
 .company p{
 	font-size: 13px;
-	font-family: 'Open Sans', arial;
 }
 .company .fa{
 	float: left;
@@ -683,7 +677,6 @@ footer {
 .bottom-m p{
 	float: left;
 	font-size: 12px;
-	font-family: 'Open Sans', arial;
 }
 .bottom-m a{
 	color: white;
